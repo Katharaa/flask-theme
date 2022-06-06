@@ -1,0 +1,27 @@
+Source: flask-theme
+Section: python
+Priority: optional
+Maintainer: Paul Boddie <paul@boddie.org.uk>
+Build-Depends:
+ debhelper-compat (= 13),
+ dh-python,
+ python3-all,
+ python3-setuptools,
+ python3-flask,
+ python3-nose,
+ python3-docutils,
+ python3-sphinx
+Standards-Version: 3.9.8
+X-Python3-Version: >= 3.7
+Homepage: https://github.com/liuliqiang/flask-theme
+Testsuite: autopkgtest-pkg-python
+
+Package: python3-flask-theme
+Architecture: all
+Depends:
+ python3-flask,
+ ${misc:Depends},
+ ${python3:Depends},
+ ${sphinxdoc:Depends}
+Description: Infrastructure for theming Flask applications
+ Flask-Theme is an extension to Flask that adds theming support.
