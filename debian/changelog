@@ -1,3 +1,10 @@
+flask-theme (0.3.6+git20240318.2329f802-1) UNRELEASED; urgency=medium
+
+  * Non-maintainer upload.
+  * New upstream release. 
+
+ -- Kathara Sasikumar <katharasasikumar007@gmail.com>  Fri, 08 Mar 2024 13:36:41 +0000
+
 flask-theme (0.3.5+git20220710.f7d87c6b-1) unstable; urgency=low
 
   * Initial release.
