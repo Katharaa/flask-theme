@@ -1,3 +1,2 @@
 version=3
-opts=uversionmangle=s/(rc|a|b|c)/~$1/ \
-https://pypi.debian.net/Flask-Theme/Flask-Theme-(.+)\.(?:zip|tgz|tbz|txz|(?:tar\.(?:gz|bz2|xz)))
+https://github.com/liuliqiang/flask-theme/tags .*?/tags/(\d\S*)\.(?:tar\.gz|zip)
